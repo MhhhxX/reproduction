@@ -3,10 +3,23 @@
 version = 4
 
 [[package]]
+name = "bytemuck"
+version = "1.25.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d6aedf8ae72766347502cf3cb4f41cf5e9cc37d28bee90f1fdaaae15f9cf9424"
+
+[[package]]
 name = "crate1"
 version = "0.1.0"
 dependencies = [
  "log",
+]
+
+[[package]]
+name = "crate2"
+version = "0.1.0"
+dependencies = [
+ "bytemuck",
 ]
 
 [[package]]
